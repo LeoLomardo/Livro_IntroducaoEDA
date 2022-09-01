@@ -9,7 +9,7 @@ int main(){
     float b = 12;
     float c = -14;
     raizes(a, b, c, &x1, &x2);
-    printf("%f - %f", x1, x2);
+    printf("A funcao tem:%d\n x1=%f\n%f",raizes(a, b, c, &x1, &x2), x1, x2);
 }
 
 int raizes(float a, float b, float c, float *x1, float *x2){
